@@ -5,7 +5,7 @@
 ## Meniu:
  - Įveskite, kiek kartu žodis turi pasikartoti tekste:
 ## Išvestis:
-
+![alt text](https://github.com/PauliusKu/OP-5/blob/Developer/Capture.PNG)
 ## Programos įdiegimas
   1. Atsisiųskite [**naujausią versiją.**](https://github.com/PauliusKu/2-uzduotisVEC/releases)<br>
   2. Išskleiskite failus į pasirinktą vietą
@@ -15,11 +15,19 @@
     g++ -std=c++11 *.cpp -o main
     ./main
     
-   
+## Lietuvių kalba:
+![alt text](https://github.com/PauliusKu/OP-5/blob/Developer/lt.PNG)
+  
+  
 ## Versijos:
 
-### [Changelog v0.1 Galutinė versija](https://github.com/PauliusKu/OP-5/releases/tag/v1.0)
-
+### [Changelog v1.0 Galutinė versija](https://github.com/PauliusKu/OP-5/releases/tag/v1.0)
+#### Pridėta
+- UI
+- Įvesties funkcija
+#### Koreguota 
+- ReadMe.md failas
+#### Panaikinta
 
 
 ### [Changelog v0.1 Pradinė versija](https://github.com/PauliusKu/OP-5/releases/tag/v0.1)
