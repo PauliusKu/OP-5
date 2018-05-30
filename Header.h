@@ -20,7 +20,8 @@ typedef std::pair<std::string, std::vector<unsigned int>>  PairV;
 typedef std::pair<MapV::iterator, bool> MapPairV;
 
 void Replace(std::string&, std::vector<char>&, const char&);
-void Spausdinti(MapV&);
+void Spausdinti(MapV&, unsigned int);
+unsigned int intFromString(int a, int b, std::string msg);
 
 
 #endif

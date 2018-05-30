@@ -1,2 +1,10 @@
-drghazththe yádtyh xztzestetshd- hhrhredher heherháuá.
-fdhdshezrherher *fshr * xfbv - dvsdg. — fsdhdthrsh.
+Asociatyvûs konteineriai
+Turinys
+Uþduoties formuluotë
+Uþduoties formuluotë
+Iki ðiol daþniausiai naudojome nuoseklaus tipo konteinerius, t.y. jø elementø pirminë tvarka yra tokia, kokia mes tuos elementus sudëjome (naudodami pvz. insert ar push_back() metodus) á konteinerius. Taèiau tam tikroms uþduotims kito tipo konteineriai yra labiau tinkami. Ði uþduotis bûtent skirta patyrinëti, kokio tipo uþduotims asociatyvûs konteineriai yra labiau tinkami uþ nuosekliuosius (sekos) konteinerius.
+
+Suskaièiuokite, kiek kartø kiekvienas skirtingas þodis pasikartoja tekste (tekstà galite paimti ið betkur, pvz. delfi.lt naujiena ar Hario Poterio knyga) ir output'e (ekrane, ar iðoriniame faile) atspausdinkite þodþius, kurie pasikartojo daþniau negu 1 kartà ir kiek kartø jie pasikartojo.
+Sukurkite cross-reference tipo lentelæ kurioje bûtø nurodyta, kurioje teksto vietoje (kuriose teksto eilutëse) buvo paminëtas kiekvienas daugiau negu vienà kartà pasikartojantis þodis.
+Realizuokite Unit Testus naudodami Jums labiausiai patinkantá C++ Unit testø framework'à.
+Repozicija turi bûti parengta pagal visus ankstesniø darbø galutinëms versijoms galiojanèius reikalavimus.
