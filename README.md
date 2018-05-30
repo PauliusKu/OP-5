@@ -22,6 +22,7 @@
 ## Versijos:
 
 ### [Changelog v1.0 Galutinė versija](https://github.com/PauliusKu/OP-5/releases/tag/v1.0)
+
 #### Pridėta
 - UI
 - Įvesties funkcija
