@@ -8,7 +8,7 @@ int main()
 	MapV mymapV;
 	std::vector<char> CharVect{'—','-',',', '.', '?', '!', ':', ';', '"', '„', '“', '…', '(', ')', '\\', '\'', '{', '}', '*', '#' };
 	std::string input{};
-	std::ifstream myfile("input8.txt");
+	std::ifstream myfile("input5.txt");
 	for (unsigned int i = 0; !myfile.eof(); i++)
 	{
 		std::getline(myfile, input);
@@ -16,7 +16,6 @@ int main()
 		Replace(input, CharVect, ' ');
 		std::stringstream ss(input);
 
-		unsigned int size = 0;
 		std::string word;
 		while (ss >> word)
 		{
@@ -28,7 +27,7 @@ int main()
 		}
 	}
 
-	Spausdinti(mymapV);
+	Spausdinti(mymapV, intFromString(1, 10000000, " Áveskite, kiek kartu þodis turi pasikartoti tekste:"));
 	system("pause");
 	return 0;
 }
