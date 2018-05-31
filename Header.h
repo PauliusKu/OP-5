@@ -9,6 +9,7 @@
 #include <functional>
 #include <vector>
 #include <sstream>
+#include <iomanip>
 
 inline int I() { return 5; }
 
@@ -20,7 +21,7 @@ typedef std::pair<std::string, std::vector<unsigned int>>  PairV;
 typedef std::pair<MapV::iterator, bool> MapPairV;
 
 void Replace(std::string&, std::vector<char>&, const char&);
-void Spausdinti(MapV&, unsigned int);
+void Spausdinti(MapV&, unsigned int, unsigned int lenght);
 unsigned int intFromString(int a, int b, std::string msg);
 
 

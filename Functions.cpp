@@ -14,7 +14,7 @@ void Replace(std::string &S, std::vector<char> &V, const char& new_value)
 	}
 }
 
-void Spausdinti(MapV & mymapV, unsigned int n)
+void Spausdinti(MapV & mymapV, unsigned int n, unsigned int lenght)
 {
 	std::cout << "Þodþiu rodyklë: " << std::endl;
 	for (auto & itr : mymapV)
@@ -24,10 +24,10 @@ void Spausdinti(MapV & mymapV, unsigned int n)
 			size_t size = itr.second.size();
 			if (itr.second.size() > 2)
 			{
-				std::cout << itr.first << " pasikartoja " << itr.second[0] << " kartø(kartus) eilutëse: ";
+				std::cout << std::setw(lenght) << std::left << itr.first << " pasikartoja " << itr.second[0] << " kartø(kartus) eilutëse: ";
 			}
 			else {
-				std::cout << itr.first << " yra " << itr.second[0] << " kartà eilutëje: ";
+				std::cout << std::setw(lenght) << std::left << itr.first << " yra " << itr.second[0] << " kartà                 eilutëje: ";
 			}
 			for (size_t i = 1; i < itr.second.size(); i++)
 			{

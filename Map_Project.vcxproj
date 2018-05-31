@@ -23,6 +23,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\3 darbas\3 darbas\Timer.h" />
     <ClInclude Include="Header.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
