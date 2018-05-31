@@ -17,6 +17,14 @@
     
 ## Lietuvių kalba:
 ![alt text](https://github.com/PauliusKu/OP-5/blob/Developer/lt.PNG)
+
+## Getline, transform, replace, stringstream:
+```cpp
+	std::getline(myfile, input);
+	std::transform(input.begin(), input.end(), input.begin(), ::tolower);
+	Replace(input, CharVect, ' ');
+	std::stringstream ss(input);
+```
   
   
 ## Versijos:
